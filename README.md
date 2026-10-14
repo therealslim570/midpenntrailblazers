@@ -1,6 +1,6 @@
 # Mid Penn Trailblazers
 
-A responsive static website for the Mid Penn Trailblazers trail running club, including a month-view event calendar and individual race profiles. Built with plain HTML, CSS, and a small amount of JavaScript—no build step or dependencies required.
+A responsive static website for the Mid Penn Trailblazers trail running club, including a month-view event calendar and individual race profiles. The visual identity uses Central Pennsylvania forest tones and blaze-orange trail markers. Built with plain HTML, CSS, and a small amount of JavaScript—no build step or dependencies required.
 
 ## Preview locally
 
