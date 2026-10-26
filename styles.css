@@ -97,6 +97,8 @@
 .race-actions .race-secondary:hover{background:#fff}
 .race-disclaimer{margin-top:18px;color:#758078;font-size:9px;line-height:1.7}
 .course-maps{background:#f2f3ec}
+.race-content--course{padding-bottom:36px}
+.race-content--course+.course-maps{padding-top:36px}
 .course-maps-heading{max-width:680px;margin-bottom:30px}
 .course-maps-heading .eyebrow{margin-bottom:13px}
 .course-maps-heading h2{margin:0 0 10px;font-size:clamp(30px,4vw,44px);font-weight:600;letter-spacing:-.06em;line-height:1.15}
@@ -111,7 +113,7 @@
 .course-map-info p{margin:0;color:#6d796f;font-size:10px;line-height:1.6}
 .course-map-info .button{flex:none;min-height:42px;padding-inline:13px;font-size:9px}
 .course-map-info .lime-button{color:var(--deep)}
-@media(max-width:640px){.course-maps{padding-block:62px}.course-maps-heading{margin-bottom:22px}.course-map-grid{grid-template-columns:1fr;gap:13px}.course-map-info{min-height:0;padding:16px;align-items:flex-start;flex-direction:column;gap:13px}.course-map-info .button{min-height:40px}}
+@media(max-width:640px){.course-maps{padding-block:62px}.race-content--course{padding-bottom:28px}.race-content--course+.course-maps{padding-top:28px}.course-maps-heading{margin-bottom:22px}.course-map-grid{grid-template-columns:1fr;gap:13px}.course-map-info{min-height:0;padding:16px;align-items:flex-start;flex-direction:column;gap:13px}.course-map-info .button{min-height:40px}}
 .race-more{padding:28px 0;background:#eef0e9}
 .race-more-inner{display:flex;justify-content:space-between;align-items:center;gap:22px}
 .race-more p{margin:0;color:#617064;font-size:11px}
