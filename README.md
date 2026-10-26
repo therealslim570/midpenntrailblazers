@@ -17,6 +17,6 @@ Open `index.html` in a browser, or use the VS Code Live Server extension for a l
 - `calendar.js` — month navigation and calendar event rendering
 - `assets/` — locally stored homepage background photos
 
-The race dates, fun-run schedule, results, and community links were adapted from the legacy club website. Schedules may change; the site directs visitors to the club’s Facebook page to confirm current details. Homepage photography is stored in the repository; fonts continue to load from Google Fonts.
+The race dates, fun-run schedule, and results were adapted from the legacy club website. Schedules may change; the site directs visitors to the club’s Facebook page to confirm current details. Homepage photography is stored in the repository; fonts continue to load from Google Fonts.
 
 To add results for a new season, add a year section to `results.html` and link each posted result to its official timing provider.
