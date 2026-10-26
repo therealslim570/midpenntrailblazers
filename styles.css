@@ -70,6 +70,11 @@
 .dropdown-menu a:hover,.dropdown-menu a[aria-current="page"]{color:var(--forest);background:#eff3e9}
 .race-hero{position:relative;overflow:hidden;color:#fff;background:var(--forest)}
 .race-hero--night-flight{background:linear-gradient(90deg,rgba(9,23,18,.9),rgba(9,23,18,.62) 58%,rgba(9,23,18,.34)),url("assets/night-flight.jpg") center 48%/cover no-repeat}
+.race-hero--dandelion{background:linear-gradient(90deg,rgba(9,23,18,.78),rgba(9,23,18,.48) 58%,rgba(9,23,18,.22)),url("assets/dandelion.jpg") center 53%/cover no-repeat}
+.race-hero--dam-half{background:linear-gradient(90deg,rgba(9,23,18,.82),rgba(9,23,18,.56) 58%,rgba(9,23,18,.28)),url("assets/dam-half.jpg") center 55%/cover no-repeat}
+.race-hero--loops-of-hope{background:linear-gradient(90deg,rgba(9,23,18,.84),rgba(9,23,18,.58) 58%,rgba(9,23,18,.32)),url("assets/loops-for-hope.jpg") center 50%/cover no-repeat}
+.race-hero--snow-fest{background:linear-gradient(90deg,rgba(9,23,18,.84),rgba(9,23,18,.58) 58%,rgba(9,23,18,.32)),url("assets/snowfest.jpg") center 50%/cover no-repeat}
+.race-hero--smiths-knob{background:linear-gradient(90deg,rgba(9,23,18,.84),rgba(9,23,18,.58) 58%,rgba(9,23,18,.32)),url("assets/smiths-knob.jpg") center 50%/cover no-repeat}
 .race-hero::after{position:absolute;right:-7%;bottom:-54%;width:min(550px,65vw);aspect-ratio:1;border:1px solid rgba(217,243,104,.22);border-radius:50%;content:"";box-shadow:0 0 0 34px rgba(217,243,104,.035),0 0 0 76px rgba(217,243,104,.03)}
 .race-hero-inner{position:relative;z-index:1;padding-top:39px;padding-bottom:74px}
 .race-breadcrumbs{margin-bottom:35px;display:flex;flex-wrap:wrap;gap:8px;color:rgba(255,255,255,.62);font-size:9px}
