@@ -62,6 +62,8 @@
 .races-toggle:hover,.races-toggle[aria-expanded="true"]{color:#64844f}
 .races-toggle span{font-size:15px;transition:transform .2s}
 .races-toggle[aria-expanded="true"] span{transform:rotate(180deg)}
+.races-toggle{padding:10px 12px;color:var(--deep);background:var(--lime);border-radius:2px;font-weight:700}
+.races-toggle:hover,.races-toggle[aria-expanded="true"]{color:var(--deep);background:#f08b49}
 .dropdown-menu{position:absolute;z-index:25;top:100%;left:-16px;min-width:220px;padding:8px;display:none;grid-template-columns:1fr;background:#fff;border:1px solid var(--line);box-shadow:0 14px 32px #10271d1a}
 .nav-dropdown:hover .dropdown-menu,.nav-dropdown:focus-within .dropdown-menu,.nav-dropdown.is-open .dropdown-menu{display:grid}
 .dropdown-menu a{padding:10px 12px;color:#39493d;font-size:11px;font-weight:600;text-decoration:none}
