@@ -24,14 +24,28 @@ const calendarEvents = [
   { date: "2026-10-28", title: "Fun run · Montour Preserve or Camp Mt. Luther", shortTitle: "Fun run", kind: "fun", detail: "6:00 pm · Location to be confirmed", url: "https://www.facebook.com/groups/MidPennTrailblazers/" },
   { date: "2026-11-11", title: "Fun run · Hess Field", shortTitle: "Fun run", kind: "fun", detail: "6:00 pm · Hess Field, Danville", url: "https://www.facebook.com/groups/MidPennTrailblazers/" },
   { date: "2026-12-09", title: "Fun run · Mifflinburg rail trail", shortTitle: "Fun run", kind: "fun", detail: "6:00 pm · Rail trail from Joel’s mom’s house, Mifflinburg", url: "https://www.facebook.com/groups/MidPennTrailblazers/" },
+  { date: "2027-01-09", title: "Loops of Hope", shortTitle: "Loops of Hope", kind: "race", detail: "R.B. Winter State Park", page: "races/loops-of-hope.html" },
+  { date: "2027-02-21", title: "Snow Fest", shortTitle: "Snow Fest", kind: "race", detail: "R.B. Winter State Park", page: "races/snow-fest.html" },
+  { date: "2027-04-03", title: "Night Flight", shortTitle: "Night Flight", kind: "race", detail: "Camp Mt. Luther, Mifflinburg, PA", page: "races/night-flight.html" },
+  { date: "2027-09-04", title: "Dandelion", shortTitle: "Dandelion", kind: "race", detail: "Camp Mt. Luther, Mifflinburg, PA", page: "races/dandelion-run.html" },
+  { date: "2027-09-26", title: "Dam Half & Dam 4-Milish", shortTitle: "Dam Half & 4-Milish", kind: "race", detail: "R.B. Winter State Park", page: "races/dam-half.html" },
 ];
 
 const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-let displayedMonth = new Date().getFullYear() === 2026 ? new Date().getMonth() : 9;
+const firstCalendarMonth = new Date(2026, 0, 1);
+const lastCalendarMonth = new Date(2027, 11, 1);
+const today = new Date();
+const currentMonth = new Date(today.getFullYear(), today.getMonth(), 1);
+let displayedMonth = currentMonth < firstCalendarMonth
+  ? firstCalendarMonth
+  : currentMonth > lastCalendarMonth
+    ? lastCalendarMonth
+    : currentMonth;
 
 function renderCalendar() {
-  const year = 2026;
-  const monthName = new Intl.DateTimeFormat("en", { month: "long" }).format(new Date(year, displayedMonth, 1));
+  const year = displayedMonth.getFullYear();
+  const month = displayedMonth.getMonth();
+  const monthName = new Intl.DateTimeFormat("en", { month: "long" }).format(displayedMonth);
   monthHeading.textContent = `${monthName} ${year}`;
   calendarGrid.replaceChildren();
 
@@ -44,8 +58,8 @@ function renderCalendar() {
     calendarGrid.append(heading);
   });
 
-  const firstDay = new Date(year, displayedMonth, 1).getDay();
-  const daysInMonth = new Date(year, displayedMonth + 1, 0).getDate();
+  const firstDay = new Date(year, month, 1).getDay();
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
   const cellCount = Math.ceil((firstDay + daysInMonth) / 7) * 7;
 
   for (let index = 0; index < cellCount; index += 1) {
@@ -58,7 +72,7 @@ function renderCalendar() {
       cell.classList.add("calendar-day--outside");
       cell.setAttribute("aria-hidden", "true");
     } else {
-      const dateKey = `${year}-${String(displayedMonth + 1).padStart(2, "0")}-${String(dateNumber).padStart(2, "0")}`;
+      const dateKey = `${year}-${String(month + 1).padStart(2, "0")}-${String(dateNumber).padStart(2, "0")}`;
       const dayNumber = document.createElement("span");
       dayNumber.className = "calendar-day-number";
       dayNumber.textContent = String(dateNumber);
@@ -82,17 +96,21 @@ function renderCalendar() {
     calendarGrid.append(cell);
   }
 
-  previousButton.disabled = displayedMonth === 0;
-  nextButton.disabled = displayedMonth === 11;
+  previousButton.disabled = displayedMonth <= firstCalendarMonth;
+  nextButton.disabled = displayedMonth >= lastCalendarMonth;
 }
 
 previousButton.addEventListener("click", () => {
-  if (displayedMonth > 0) displayedMonth -= 1;
+  if (displayedMonth > firstCalendarMonth) {
+    displayedMonth = new Date(displayedMonth.getFullYear(), displayedMonth.getMonth() - 1, 1);
+  }
   renderCalendar();
 });
 
 nextButton.addEventListener("click", () => {
-  if (displayedMonth < 11) displayedMonth += 1;
+  if (displayedMonth < lastCalendarMonth) {
+    displayedMonth = new Date(displayedMonth.getFullYear(), displayedMonth.getMonth() + 1, 1);
+  }
   renderCalendar();
 });
 

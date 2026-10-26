@@ -69,6 +69,7 @@
 .dropdown-menu a{padding:10px 12px;color:#39493d;font-size:11px;font-weight:600;text-decoration:none}
 .dropdown-menu a:hover,.dropdown-menu a[aria-current="page"]{color:var(--forest);background:#eff3e9}
 .race-hero{position:relative;overflow:hidden;color:#fff;background:var(--forest)}
+.race-hero--night-flight{background:linear-gradient(90deg,rgba(9,23,18,.9),rgba(9,23,18,.62) 58%,rgba(9,23,18,.34)),url("assets/night-flight.jpg") center 48%/cover no-repeat}
 .race-hero::after{position:absolute;right:-7%;bottom:-54%;width:min(550px,65vw);aspect-ratio:1;border:1px solid rgba(217,243,104,.22);border-radius:50%;content:"";box-shadow:0 0 0 34px rgba(217,243,104,.035),0 0 0 76px rgba(217,243,104,.03)}
 .race-hero-inner{position:relative;z-index:1;padding-top:39px;padding-bottom:74px}
 .race-breadcrumbs{margin-bottom:35px;display:flex;flex-wrap:wrap;gap:8px;color:rgba(255,255,255,.62);font-size:9px}
@@ -98,6 +99,9 @@
 .race-actions .race-secondary{color:var(--forest);background:transparent;border-color:#aab8a8}
 .race-actions .race-secondary:hover{background:#fff}
 .race-disclaimer{margin-top:18px;color:#758078;font-size:9px;line-height:1.7}
+.race-artwork{padding:42px 0;background:#10251c}
+.race-artwork img{width:min(760px,100%);height:auto;margin:0 auto;display:block;border:1px solid rgba(255,255,255,.15)}
+@media(max-width:640px){.race-artwork{padding:28px 0}}
 .course-maps{background:#f2f3ec}
 .race-content--course{padding-bottom:36px}
 .race-content--course+.course-maps{padding-top:36px}
