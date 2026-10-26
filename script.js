@@ -12,7 +12,10 @@ racesToggle?.addEventListener("click", () => {
 menuToggle?.addEventListener("click", () => {
   const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
   menuToggle.setAttribute("aria-expanded", String(!isOpen));
-  menuToggle.setAttribute("aria-label", isOpen ? "Open navigation" : "Close navigation");
+  menuToggle.setAttribute(
+    "aria-label",
+    isOpen ? "Open navigation" : "Close navigation",
+  );
   navigation?.classList.toggle("is-open", !isOpen);
   if (isOpen) {
     racesToggle?.setAttribute("aria-expanded", "false");

@@ -1,35 +1,214 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#183a2b">
-  <meta name="description" content="Browse Mid Penn Trailblazers 2026 and 2027 trail race and fun run dates in a month-by-month calendar.">
-  <title>Calendar — Mid Penn Trailblazers</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css"><script src="script.js" defer></script><script src="calendar.js" defer></script>
-</head>
-<body class="calendar-page">
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="announcement"><i aria-hidden="true"></i><a href="https://www.facebook.com/groups/MidPennTrailblazers/" target="_blank" rel="noreferrer">Facebook ↗</a></div>
-  <header class="site-header"><div class="wrap header-inner">
-    <a class="brand" href="index.html#top" aria-label="Mid Penn Trailblazers home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 44 44" fill="none"><path d="M4 34 17 13l5 8 5-7 13 20H4Z" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/><path d="m13 34 9-13 9 13M21 26l-5 8m15-6-5 6" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><circle cx="35" cy="10" r="3" fill="currentColor"/></svg></span><span class="brand-words"><strong>Mid Penn</strong><small>Trailblazers</small></span></a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
-    <nav class="site-nav" id="primary-nav" aria-label="Main navigation"><a class="nav-cta" href="index.html">Home</a><a href="index.html#about">Our club</a><a href="calendar.html" aria-current="page">Calendar</a><div class="nav-dropdown"><button class="races-toggle" type="button" aria-expanded="false" aria-controls="race-submenu">Races <span aria-hidden="true">⌄</span></button><div class="dropdown-menu" id="race-submenu"><a href="races/loops-of-hope.html">Loops of Hope</a><a href="races/snow-fest.html">Snow Fest</a><a href="races/night-flight.html">Night Flight</a><a href="races/smiths-knob-scramble.html">Smith’s Knob Scramble</a><a href="races/dandelion-run.html">Dandelion Run</a><a href="races/dam-half.html">Dam Half</a></div></div><a href="results.html">Results</a></nav>
-  </div></header>
-  <main id="main">
-    <section class="calendar-hero"><div class="wrap"><p class="eyebrow"><i></i>race &amp; run schedule</p><h1>Calendar</h1><p>Browse Mid Penn Trailblazers races and group runs. Fun-run locations and dates are tentative—check the club facebook page before heading out for any last minute details.</p></div></section>
-    <section class="calendar-section section-pad" aria-labelledby="calendar-title"><div class="wrap calendar-layout">
-      <div class="calendar-main">
-        <div class="calendar-toolbar"><div><p class="eyebrow"><i></i>2026–2027 club schedule</p><h2 id="calendar-title" aria-live="polite">October 2026</h2></div><div class="calendar-controls"><button id="previous-month" type="button" aria-label="Previous month">←</button><button id="next-month" type="button" aria-label="Next month">→</button></div></div>
-        <div class="calendar-grid" id="calendar-grid" role="grid" aria-labelledby="calendar-title"></div>
-        <div class="calendar-legend"><span><i class="legend-race"></i>Club race</span><span><i class="legend-fun"></i>Fun run</span><span>Fun runs are usually on the second and fourth Wednesdays.</span></div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#183a2b" />
+    <meta
+      name="description"
+      content="Browse Mid Penn Trailblazers 2026 and 2027 trail race and fun run dates in a month-by-month calendar."
+    />
+    <title>Calendar — Mid Penn Trailblazers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <script src="calendar.js" defer></script>
+  </head>
+  <body class="calendar-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="announcement">
+      <i aria-hidden="true"></i
+      ><a
+        href="https://www.facebook.com/groups/MidPennTrailblazers/"
+        target="_blank"
+        rel="noreferrer"
+        >Facebook ↗</a
+      >
+    </div>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a
+          class="brand"
+          href="index.html#top"
+          aria-label="Mid Penn Trailblazers home"
+          ><span class="brand-mark" aria-hidden="true"
+            ><svg viewBox="0 0 44 44" fill="none">
+              <path
+                d="M4 34 17 13l5 8 5-7 13 20H4Z"
+                stroke="currentColor"
+                stroke-width="2.3"
+                stroke-linejoin="round"
+              />
+              <path
+                d="m13 34 9-13 9 13M21 26l-5 8m15-6-5 6"
+                stroke="currentColor"
+                stroke-width="2.3"
+                stroke-linecap="round"
+              />
+              <circle cx="35" cy="10" r="3" fill="currentColor" /></svg></span
+          ><span class="brand-words"
+            ><strong>Mid Penn</strong><small>Trailblazers</small></span
+          ></a
+        >
+        <button
+          class="menu-toggle"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Open navigation"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="primary-nav" aria-label="Main navigation">
+          <a class="nav-cta" href="index.html">Home</a
+          ><a href="index.html#about">Our club</a
+          ><a href="calendar.html" aria-current="page">Calendar</a>
+          <div class="nav-dropdown">
+            <button
+              class="races-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="race-submenu"
+            >
+              Races <span aria-hidden="true">⌄</span>
+            </button>
+            <div class="dropdown-menu" id="race-submenu">
+              <a href="races/loops-of-hope.html">Loops of Hope</a
+              ><a href="races/snow-fest.html">Snow Fest</a
+              ><a href="races/night-flight.html">Night Flight</a
+              ><a href="races/smiths-knob-scramble.html"
+                >Smith’s Knob Scramble</a
+              ><a href="races/dandelion-run.html">Dandelion Run</a
+              ><a href="races/dam-half.html">Dam Half</a>
+            </div>
+          </div>
+          <a href="results.html">Results</a>
+        </nav>
       </div>
-      <aside class="calendar-aside"><span class="aside-kicker">GROUP RUN NOTES</span><h3>Good trails.<br>Good company.</h3><p>Fun runs are usually on the second and fourth Wednesdays. They’re about more than miles—post-run snacks and camaraderie are part of the experience. Everyone is welcome.</p><a href="https://www.facebook.com/groups/MidPennTrailblazers/" target="_blank" rel="noreferrer">Facebook ↗</a><div class="calendar-note"><strong>Verify before travelling</strong><p>Race dates and fun-run details may change; check the club Facebook page for the latest updates before travelling.</p></div></aside>
-    </div></section>
-  </main>
-  <footer class="site-footer"><div class="wrap footer-main">
-    <a class="brand footer-brand" href="index.html#top" aria-label="Mid Penn Trailblazers, back to top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 44 44" fill="none"><path d="M4 34 17 13l5 8 5-7 13 20H4Z" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/><path d="m13 34 9-13 9 13M21 26l-5 8m15-6-5 6" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><circle cx="35" cy="10" r="3" fill="currentColor"/></svg></span><span class="brand-words"><strong>Mid Penn</strong><small>Trailblazers</small></span></a>
-    <p>Central Pennsylvania<br>trail running club.</p><nav class="footer-nav" aria-label="Footer navigation"><a href="index.html#about">Our club</a><a href="calendar.html">Calendar</a><a href="results.html">Results</a><a href="index.html#contact">Contact</a></nav><a class="footer-social" href="https://www.facebook.com/groups/MidPennTrailblazers/" target="_blank" rel="noreferrer">f <span>Facebook</span> ↗</a>
-  </div><div class="wrap footer-bottom"><span>© <span id="year">2026</span> Mid Penn Trailblazers</span><span>Registered and insured with the Road Runners Club of America</span><a href="#main">Back to top ↑</a></div></footer>
-</body></html>
+    </header>
+    <main id="main">
+      <section class="calendar-hero">
+        <div class="wrap">
+          <p class="eyebrow"><i></i>race &amp; run schedule</p>
+          <h1>Calendar</h1>
+          <p>
+            Browse Mid Penn Trailblazers races and group runs. Fun-run locations
+            and dates are tentative—check the club facebook page before heading
+            out for any last minute details.
+          </p>
+        </div>
+      </section>
+      <section
+        class="calendar-section section-pad"
+        aria-labelledby="calendar-title"
+      >
+        <div class="wrap calendar-layout">
+          <div class="calendar-main">
+            <div class="calendar-toolbar">
+              <div>
+                <p class="eyebrow"><i></i>2026–2027 club schedule</p>
+                <h2 id="calendar-title" aria-live="polite">October 2026</h2>
+              </div>
+              <div class="calendar-controls">
+                <button
+                  id="previous-month"
+                  type="button"
+                  aria-label="Previous month"
+                >
+                  ←</button
+                ><button id="next-month" type="button" aria-label="Next month">
+                  →
+                </button>
+              </div>
+            </div>
+            <div
+              class="calendar-grid"
+              id="calendar-grid"
+              role="grid"
+              aria-labelledby="calendar-title"
+            ></div>
+            <div class="calendar-legend">
+              <span><i class="legend-race"></i>Club race</span
+              ><span><i class="legend-fun"></i>Fun run</span
+              ><span
+                >Fun runs are usually on the second and fourth Wednesdays.</span
+              >
+            </div>
+          </div>
+          <aside class="calendar-aside">
+            <span class="aside-kicker">GROUP RUN NOTES</span>
+            <h3>Good trails.<br />Good company.</h3>
+            <p>
+              Fun runs are usually on the second and fourth Wednesdays. They’re
+              about more than miles—post-run snacks and camaraderie are part of
+              the experience. Everyone is welcome.
+            </p>
+            <a
+              href="https://www.facebook.com/groups/MidPennTrailblazers/"
+              target="_blank"
+              rel="noreferrer"
+              >Facebook ↗</a
+            >
+            <div class="calendar-note">
+              <strong>Verify before travelling</strong>
+              <p>
+                Race dates and fun-run details may change; check the club
+                Facebook page for the latest updates before travelling.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-main">
+        <a
+          class="brand footer-brand"
+          href="index.html#top"
+          aria-label="Mid Penn Trailblazers, back to top"
+          ><span class="brand-mark" aria-hidden="true"
+            ><svg viewBox="0 0 44 44" fill="none">
+              <path
+                d="M4 34 17 13l5 8 5-7 13 20H4Z"
+                stroke="currentColor"
+                stroke-width="2.3"
+                stroke-linejoin="round"
+              />
+              <path
+                d="m13 34 9-13 9 13M21 26l-5 8m15-6-5 6"
+                stroke="currentColor"
+                stroke-width="2.3"
+                stroke-linecap="round"
+              />
+              <circle cx="35" cy="10" r="3" fill="currentColor" /></svg></span
+          ><span class="brand-words"
+            ><strong>Mid Penn</strong><small>Trailblazers</small></span
+          ></a
+        >
+        <p>Central Pennsylvania<br />trail running club.</p>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html#about">Our club</a
+          ><a href="calendar.html">Calendar</a><a href="results.html">Results</a
+          ><a href="index.html#contact">Contact</a>
+        </nav>
+        <a
+          class="footer-social"
+          href="https://www.facebook.com/groups/MidPennTrailblazers/"
+          target="_blank"
+          rel="noreferrer"
+          >f <span>Facebook</span> ↗</a
+        >
+      </div>
+      <div class="wrap footer-bottom">
+        <span>© <span id="year">2026</span> Mid Penn Trailblazers</span
+        ><span
+          >Registered and insured with the Road Runners Club of America</span
+        ><a href="#main">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
