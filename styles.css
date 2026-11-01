@@ -1388,6 +1388,55 @@ h2 em {
   color: #354c2d;
   background: #e8f1d5;
 }
+.calendar-links {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+.calendar-link {
+  min-height: 40px;
+  padding: 0 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: #fff;
+  background: var(--forest);
+  border: 1px solid var(--forest);
+  border-radius: 2px;
+  font-size: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    color 0.2s,
+    background 0.2s;
+}
+.calendar-link span {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+.calendar-link:hover {
+  color: var(--forest);
+  background: #fff;
+}
+.calendar-link:hover span {
+  color: #637365;
+}
+.calendar-link--google {
+  color: var(--forest);
+  background: transparent;
+}
+.calendar-link--google:hover {
+  color: #fff;
+  background: var(--forest);
+}
+.calendar-feed-note {
+  margin: 8px 0 0;
+  color: #6e7b70;
+  font-size: 9px;
+  line-height: 1.6;
+}
 .calendar-legend {
   margin-top: 14px;
   display: flex;

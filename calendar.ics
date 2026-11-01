@@ -1,0 +1,425 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Mid Penn Trailblazers//2026-2027 Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Mid Penn Trailblazers
+BEGIN:VEVENT
+UID:75db7570329230c913f1@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260110
+DTEND;VALUE=DATE:20260111
+SUMMARY:Loops of Hope
+DESCRIPTION:9:00 am · Free event
+URL:https://www.facebook.com/events/1267805342049212
+END:VEVENT
+BEGIN:VEVENT
+UID:bfe4fa2fc0420c388e4a@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260222
+DTEND;VALUE=DATE:20260223
+SUMMARY:Snow Fest
+DESCRIPTION:1:00 pm
+URL:https://my.raceresult.com/322246/
+END:VEVENT
+BEGIN:VEVENT
+UID:ac0cf88acd407dc92f93@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260405
+SUMMARY:Night Flight
+DESCRIPTION:8:30 pm
+URL:https://runsignup.com/Race/Results/Overview/46440
+END:VEVENT
+BEGIN:VEVENT
+UID:c9b8ad91218fb3304091@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260422
+DTEND;VALUE=DATE:20260423
+SUMMARY:Fun run · Camp Mt. Luther
+DESCRIPTION:6:00 pm · Camp Mt. Luther
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:d3d9706ca1559f51b8ed@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260514
+SUMMARY:Fun run · Montour Preserve
+DESCRIPTION:6:00 pm · Montour Preserve
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:8504257b58b99bfa3f1f@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:Fun run · Montour Preserve
+DESCRIPTION:6:00 pm · Montour Preserve
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:1a22cd99c760cc4e1fd3@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
+SUMMARY:Fun run · Smith’s Knob
+DESCRIPTION:6:00 pm · Smith’s Knob\, Montoursville
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:c98ec5850a6436144df2@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+SUMMARY:Smith’s Knob Scramble
+DESCRIPTION:9:00 am
+URL:https://ultrasignup.com/register.aspx?did=136546
+END:VEVENT
+BEGIN:VEVENT
+UID:6bf7a4e314582c700e48@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+SUMMARY:Fun run · Rider Park
+DESCRIPTION:6:00 pm · Rider Park\, Montoursville
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:0c437164b95776fcadd9@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+SUMMARY:Fun run · The Sick family farm
+DESCRIPTION:6:00 pm · The Sick family farm
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:2b7bcf2f11a05acbd335@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+SUMMARY:Fun run · Camp Mt. Luther
+DESCRIPTION:6:00 pm · Camp Mt. Luther
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:50439f6cd983c7b60b23@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
+SUMMARY:Fun run · Camp Mt. Luther
+DESCRIPTION:6:00 pm · Camp Mt. Luther
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:470ef95581b74b569a53@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:Dandelion Run
+DESCRIPTION:9:00 am
+URL:https://runsignup.com/Race/PA/Mifflinburg/DandelionRun5k10kTrailRace
+END:VEVENT
+BEGIN:VEVENT
+UID:3233962b682c7ac97055@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:Fun run · R.B. Winter State Park
+DESCRIPTION:6:00 pm · R.B. Winter State Park
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:05f45508cfc393cf9d32@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Fun run · R.B. Winter State Park
+DESCRIPTION:6:00 pm · R.B. Winter State Park
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:4ed7aa647d532f5f2d9b@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Dam Half
+DESCRIPTION:8:00 am · Half marathon and 4-mile-ish trail race
+URL:https://runsignup.com/Race/PA/Mifflinburg/DamHalfDamFullTrailMarathon
+END:VEVENT
+BEGIN:VEVENT
+UID:46e30f73117d28574104@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Fun run · Montour Preserve or Camp Mt. Luther
+DESCRIPTION:6:00 pm · Location to be confirmed
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:cf99345ddd4d4ada3469@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Fun run · Montour Preserve
+DESCRIPTION:6:00 pm · Montour Preserve\, Danville\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:07cd84cc3cb56e5285d1@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Fun run · Hess Field
+DESCRIPTION:6:00 pm · Hess Field\, Danville\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:c4be8ae8a84c5ebc5aa7@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Fun run · Buffalo Valley Rail Trail
+DESCRIPTION:6:00 pm · Buffalo Valley Rail Trail\, Mifflinburg\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:c3046f985ad0ea881032@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Loops of Hope
+DESCRIPTION:R.B. Winter State Park
+END:VEVENT
+BEGIN:VEVENT
+UID:c9f6d2617d02117bf51b@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Snow Fest
+DESCRIPTION:R.B. Winter State Park
+END:VEVENT
+BEGIN:VEVENT
+UID:3ee5d3c1640d50846b15@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:Night Flight
+DESCRIPTION:Camp Mt. Luther\, Mifflinburg\, PA
+END:VEVENT
+BEGIN:VEVENT
+UID:e9edc59df896b1177f17@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+SUMMARY:Dandelion
+DESCRIPTION:Camp Mt. Luther\, Mifflinburg\, PA
+END:VEVENT
+BEGIN:VEVENT
+UID:5e1b008ef27afe25bdc7@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:Fun run · Camp Mt. Luther
+DESCRIPTION:6:00 pm · Camp Mt. Luther\, Mifflinburg\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ba3163d96ef57aeb1d5f@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Fun run · Camp Mt. Luther
+DESCRIPTION:6:00 pm · Camp Mt. Luther\, Mifflinburg\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:8b12886ff86f3c1ffb02@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:Fun run · Sick Family Farm
+DESCRIPTION:6:00 pm · Sick Family Farm\, Millville\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:5defaed8dd0589eb6ab2@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+SUMMARY:Fun run · Sick Family Farm
+DESCRIPTION:6:00 pm · Sick Family Farm\, Millville\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:7f4d6b90aa8a8bb79aad@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Fun run · Camp Mt. Luther
+DESCRIPTION:6:00 pm · Camp Mt. Luther\, Mifflinburg\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:9cb0e86623dd068b4fee@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:Fun run · Camp Mt. Luther
+DESCRIPTION:6:00 pm · Camp Mt. Luther\, Mifflinburg\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:4edb88a8e00fb8bacbfe@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:Fun run · Sick Family Farm
+DESCRIPTION:6:00 pm · Sick Family Farm\, Millville\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:648fee1b06d669d38844@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
+SUMMARY:Fun run · Sick Family Farm
+DESCRIPTION:6:00 pm · Sick Family Farm\, Millville\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:02acff66c5a611fd62b9@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270513
+SUMMARY:Fun run · Montour Preserve
+DESCRIPTION:6:00 pm · Montour Preserve\, Danville\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:6503c267740d0ffcb718@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:Fun run · Montour Preserve
+DESCRIPTION:6:00 pm · Montour Preserve\, Danville\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:9def775e1161e36af2af@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+SUMMARY:Fun run · Milton State Park
+DESCRIPTION:6:00 pm · Milton State Park\, Milton\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:395b6aefbf2a9ee82b0b@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:Fun run · Milton State Park
+DESCRIPTION:6:00 pm · Milton State Park\, Milton\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:d57164532330670f2219@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270715
+SUMMARY:Fun run · Sick Family Farm
+DESCRIPTION:6:00 pm · Sick Family Farm\, Millville\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:eec1e0adc769b499b5b0@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270728
+DTEND;VALUE=DATE:20270729
+SUMMARY:Fun run · Sick Family Farm
+DESCRIPTION:6:00 pm · Sick Family Farm\, Millville\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:77ad73e98c2828a93f59@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:Fun run · Camp Mt. Luther
+DESCRIPTION:6:00 pm · Camp Mt. Luther\, Mifflinburg\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:b00461718140d046e2bd@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270826
+SUMMARY:Fun run · Camp Mt. Luther
+DESCRIPTION:6:00 pm · Camp Mt. Luther\, Mifflinburg\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:f0203c5581da2cda8570@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270908
+DTEND;VALUE=DATE:20270909
+SUMMARY:Fun run · R.B. Winter State Park
+DESCRIPTION:6:00 pm · R.B. Winter State Park\, Mifflinburg\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:8940d45bdcc0cf55fe28@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:Fun run · R.B. Winter State Park
+DESCRIPTION:6:00 pm · R.B. Winter State Park\, Mifflinburg\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:6214fe399c426377d5a5@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20271013
+DTEND;VALUE=DATE:20271014
+SUMMARY:Fun run · Montour Preserve
+DESCRIPTION:6:00 pm · Montour Preserve\, Danville\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:b79a5451687a69227678@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
+SUMMARY:Fun run · Montour Preserve
+DESCRIPTION:6:00 pm · Montour Preserve\, Danville\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ab58afc2814c578a3d60@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
+SUMMARY:Fun run · Hess Field
+DESCRIPTION:6:00 pm · Hess Field\, Danville\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:5732e657a7cc7de057cd@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20271208
+DTEND;VALUE=DATE:20271209
+SUMMARY:Fun run · Buffalo Valley Rail Trail
+DESCRIPTION:6:00 pm · Buffalo Valley Rail Trail\, Mifflinburg\, PA
+URL:https://www.facebook.com/groups/MidPennTrailblazers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ec0e0b24550782fe4a41@midpenntrailblazers
+DTSTAMP:20261101T230721Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:Dam Half & Dam 4-Milish
+DESCRIPTION:R.B. Winter State Park
+END:VEVENT
+END:VCALENDAR

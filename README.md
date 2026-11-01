@@ -10,6 +10,7 @@ Open `index.html` in a browser, or use the VS Code Live Server extension for a l
 
 - `index.html` — page structure and club content
 - `calendar.html` — dedicated 2026 month-view events calendar
+- `calendar.ics` — calendar feed for Apple Calendar and Google Calendar subscriptions
 - `results.html` — race results grouped by year, with expandable historic results
 - `races/` — individual profiles for Loops of Hope, Snow Fest, Night Flight, Smith’s Knob Scramble, Dandelion Run, and Dam Half
 - `styles.css` — responsive layout, colors, and typography
@@ -20,3 +21,5 @@ Open `index.html` in a browser, or use the VS Code Live Server extension for a l
 The race dates, fun-run schedule, and results were adapted from the legacy club website. Schedules may change; the site directs visitors to the club’s Facebook page to confirm current details. Homepage photography is stored in the repository; fonts continue to load from Google Fonts.
 
 To add results for a new season, add a year section to `results.html` and link each posted result to its official timing provider.
+
+When changing calendar events in `calendar.js`, update `calendar.ics` as well. The feed uses all-day entries to avoid assuming event durations; listed event times and locations are included in each event’s details.

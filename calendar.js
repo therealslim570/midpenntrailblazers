@@ -2,6 +2,15 @@ const calendarGrid = document.querySelector("#calendar-grid");
 const monthHeading = document.querySelector("#calendar-title");
 const previousButton = document.querySelector("#previous-month");
 const nextButton = document.querySelector("#next-month");
+const googleCalendarLink = document.querySelector("#google-calendar-link");
+
+const calendarFeedUrl = new URL("calendar.ics", document.baseURI);
+if (
+  googleCalendarLink &&
+  ["http:", "https:"].includes(calendarFeedUrl.protocol)
+) {
+  googleCalendarLink.href = `https://calendar.google.com/calendar/u/0/r?cid=${encodeURIComponent(calendarFeedUrl.href)}`;
+}
 
 const calendarEvents = [
   {
