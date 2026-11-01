@@ -141,17 +141,32 @@
                 href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl"
                 target="_blank"
                 rel="noreferrer"
-                >Add by URL in Google Calendar</a
+                >Open Google Calendar on a computer</a
               >
+              <button
+                class="calendar-link calendar-link--google"
+                id="copy-calendar-feed"
+                type="button"
+              >
+                Copy feed URL
+              </button>
             </nav>
             <p class="calendar-feed-note">
-              In Google Calendar on a computer, paste this feed URL into
-              “Add calendar” → “From URL.” It will then sync to Android.
+              Google requires calendar subscriptions to be set up on a
+              computer, not in its Android app. Copy the URL, open Google
+              Calendar, choose <strong>Other calendars → From URL</strong>, and
+              paste it there. The subscription will then sync to Android.
               <br /><a
                 class="calendar-feed-url"
+                id="calendar-feed-url"
                 href="https://therealslim570.github.io/midpenntrailblazers/calendar.ics"
                 >https://therealslim570.github.io/midpenntrailblazers/calendar.ics</a
               >
+              <br /><span
+                id="calendar-feed-status"
+                role="status"
+                aria-live="polite"
+              ></span>
               <br />Event dates are all-day; listed times are in each event’s
               details.
             </p>

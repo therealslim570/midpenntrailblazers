@@ -1426,6 +1426,8 @@ h2 em {
 .calendar-link--google {
   color: var(--forest);
   background: transparent;
+  font-family: var(--body);
+  cursor: pointer;
 }
 .calendar-link--google:hover {
   color: #fff;
