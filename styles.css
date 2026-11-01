@@ -1412,36 +1412,15 @@ h2 em {
     color 0.2s,
     background 0.2s;
 }
-.calendar-link span {
-  color: rgba(255, 255, 255, 0.7);
-  font-weight: 500;
-}
 .calendar-link:hover {
   color: var(--forest);
   background: #fff;
-}
-.calendar-link:hover span {
-  color: #637365;
-}
-.calendar-link--google {
-  color: var(--forest);
-  background: transparent;
-  font-family: var(--body);
-  cursor: pointer;
-}
-.calendar-link--google:hover {
-  color: #fff;
-  background: var(--forest);
 }
 .calendar-feed-note {
   margin: 8px 0 0;
   color: #6e7b70;
   font-size: 9px;
   line-height: 1.6;
-}
-.calendar-feed-url {
-  color: var(--forest);
-  overflow-wrap: anywhere;
 }
 .calendar-legend {
   margin-top: 14px;

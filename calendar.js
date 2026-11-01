@@ -2,26 +2,6 @@ const calendarGrid = document.querySelector("#calendar-grid");
 const monthHeading = document.querySelector("#calendar-title");
 const previousButton = document.querySelector("#previous-month");
 const nextButton = document.querySelector("#next-month");
-const copyCalendarFeedButton = document.querySelector("#copy-calendar-feed");
-const calendarFeedLink = document.querySelector("#calendar-feed-url");
-const calendarFeedStatus = document.querySelector("#calendar-feed-status");
-
-copyCalendarFeedButton.addEventListener("click", async () => {
-  if (!navigator.clipboard?.writeText) {
-    calendarFeedStatus.textContent =
-      "Copy is unavailable here. Select and copy the calendar URL above.";
-    return;
-  }
-
-  try {
-    await navigator.clipboard.writeText(calendarFeedLink.href);
-    calendarFeedStatus.textContent =
-      "Calendar URL copied. Paste it into Google Calendar’s “From URL” field.";
-  } catch {
-    calendarFeedStatus.textContent =
-      "Could not copy automatically. Select and copy the calendar URL above.";
-  }
-});
 
 const calendarEvents = [
   {

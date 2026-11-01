@@ -131,44 +131,23 @@
               role="grid"
               aria-labelledby="calendar-title"
             ></div>
-            <nav class="calendar-links" aria-label="Add calendar">
-              <a class="calendar-link" href="calendar.ics"
-                >Add to Apple Calendar <span>(iCal)</span></a
-              >
+            <div class="calendar-links">
               <a
-                class="calendar-link calendar-link--google"
-                id="google-calendar-link"
-                href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl"
-                target="_blank"
-                rel="noreferrer"
-                >Open Google Calendar on a computer</a
+                class="calendar-link"
+                href="calendar.ics"
+                download="mid-penn-trailblazers.ics"
+                type="text/calendar"
+                >Download calendar (.ics)</a
               >
-              <button
-                class="calendar-link calendar-link--google"
-                id="copy-calendar-feed"
-                type="button"
-              >
-                Copy feed URL
-              </button>
-            </nav>
+            </div>
             <p class="calendar-feed-note">
-              Google requires calendar subscriptions to be set up on a
-              computer, not in its Android app. Copy the URL, open Google
-              Calendar, choose <strong>Other calendars → From URL</strong>, and
-              paste it there. The subscription will then sync to Android.
-              <br /><a
-                class="calendar-feed-url"
-                id="calendar-feed-url"
-                href="https://therealslim570.github.io/midpenntrailblazers/calendar.ics"
-                >https://therealslim570.github.io/midpenntrailblazers/calendar.ics</a
-              >
-              <br /><span
-                id="calendar-feed-status"
-                role="status"
-                aria-live="polite"
-              ></span>
-              <br />Event dates are all-day; listed times are in each event’s
-              details.
+              This single iCalendar file works with calendar apps that support
+              .ics imports. On iPhone, open the downloaded file to add it to
+              Calendar. On Android, open or import it with a calendar app that
+              supports .ics; Google Calendar’s Android app does not import
+              downloaded .ics files. To use Google Calendar, import the file
+              from a computer, then sync your Google account to Android.
+              Events are all-day; listed times are in each event’s details.
             </p>
             <div class="calendar-legend">
               <span><i class="legend-race"></i>Club race</span
