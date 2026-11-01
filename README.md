@@ -22,4 +22,4 @@ The race dates, fun-run schedule, and results were adapted from the legacy club 
 
 To add results for a new season, add a year section to `results.html` and link each posted result to its official timing provider.
 
-When changing calendar events in `calendar.js`, update `calendar.ics` as well. The feed uses all-day entries to avoid assuming event durations; listed event times and locations are included in each event’s details.
+When changing calendar events in `calendar.js`, update `calendar.ics` as well. The feed uses all-day entries to avoid assuming event durations; listed event times and locations are included in each event’s details. For Google Calendar, open its “Add by URL” page on a computer and paste the public `calendar.ics` URL; Google then syncs the subscription to Android.

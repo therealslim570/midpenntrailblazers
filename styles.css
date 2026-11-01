@@ -1437,6 +1437,10 @@ h2 em {
   font-size: 9px;
   line-height: 1.6;
 }
+.calendar-feed-url {
+  color: var(--forest);
+  overflow-wrap: anywhere;
+}
 .calendar-legend {
   margin-top: 14px;
   display: flex;
