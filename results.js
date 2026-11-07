@@ -10,8 +10,6 @@ const resultColumns = [
   ["name", "Name"],
   ["age", "Age"],
   ["gender", "Gender"],
-  ["city", "City"],
-  ["ageGroup", "Age group"],
   ["time", "Time"],
   ["pace", "Pace"],
 ];
