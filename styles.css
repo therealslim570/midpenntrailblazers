@@ -2148,7 +2148,7 @@ h2 em {
 }
 .year-results {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 10px;
 }
 .year-result {
@@ -2198,6 +2198,91 @@ h2 em {
   font-size: 14px;
   font-weight: 400;
 }
+.year-result-item {
+  min-width: 0;
+}
+.year-result-item.is-expanded {
+  grid-column: 1 / -1;
+}
+.local-results {
+  margin-top: 6px;
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid #e1e6dc;
+}
+.local-results summary {
+  padding: 10px 12px;
+  color: var(--forest);
+  cursor: pointer;
+  font-size: 9px;
+  font-weight: 700;
+  list-style-position: inside;
+}
+.local-results[open] summary {
+  border-bottom: 1px solid #e7ebe3;
+}
+.local-results-content {
+  padding: 13px;
+}
+.local-results-set + .local-results-set {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+.local-results-set h3 {
+  margin: 0 0 6px;
+  color: var(--forest);
+  font: 700 13px/1.4 var(--display);
+}
+.local-results-status {
+  margin: 0 0 6px;
+  color: #8a5a18;
+  font-size: 9px;
+}
+.local-results-source {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: #617d4d;
+  font-size: 9px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.local-results-source:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.local-results-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+}
+.local-results table {
+  width: 100%;
+  min-width: 740px;
+  border-collapse: collapse;
+  font-size: 9px;
+  text-align: left;
+}
+.local-results caption {
+  padding: 7px 0;
+  color: #748078;
+  font-size: 8px;
+  text-align: left;
+}
+.local-results th,
+.local-results td {
+  padding: 7px 8px;
+  border-bottom: 1px solid #e8ebe4;
+  white-space: nowrap;
+}
+.local-results th {
+  color: #465b49;
+  background: #eef0e9;
+  font-size: 8px;
+  font-weight: 700;
+}
+.local-results tbody tr:nth-child(even) {
+  background: #fafbf8;
+}
 .year-footnote {
   margin: 12px 0 0;
   color: #78847b;
@@ -2245,7 +2330,7 @@ h2 em {
 .older-years {
   padding: 4px 0 20px;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 25px 30px;
 }
 .result-year--compact {
