@@ -1846,6 +1846,28 @@ h2 em {
   font-weight: 700;
   letter-spacing: -0.035em;
 }
+.course-breakdown {
+  margin-top: 15px;
+  display: grid;
+  gap: 12px;
+}
+.course-segment {
+  padding: 16px 17px;
+  background: #f7f9f4;
+  border: 1px solid #dfe6d8;
+}
+.course-segment h4 {
+  margin: 0 0 7px;
+  color: var(--forest);
+  font: 700 13px var(--display);
+  letter-spacing: -0.02em;
+}
+.course-segment p {
+  margin: 0;
+  color: #5d6d63;
+  font-size: 12px;
+  line-height: 1.8;
+}
 .race-copy ul {
   padding-left: 19px;
   color: #637168;
@@ -2006,6 +2028,25 @@ h2 em {
 .course-map-info .lime-button {
   color: var(--deep);
 }
+.elevation-profile {
+  margin-top: 40px;
+}
+.elevation-profile-heading {
+  margin-bottom: 14px;
+}
+.elevation-profile-heading h3 {
+  margin: 0;
+  font: 700 18px var(--display);
+  letter-spacing: -0.035em;
+}
+.elevation-profile-image {
+  width: min(100%, 700px);
+  height: auto;
+  margin-inline: auto;
+  display: block;
+  background: #fff;
+  border: 1px solid var(--line);
+}
 @media (max-width: 640px) {
   .course-maps {
     padding-block: 62px;
@@ -2032,6 +2073,9 @@ h2 em {
   }
   .course-map-info .button {
     min-height: 40px;
+  }
+  .elevation-profile {
+    margin-top: 30px;
   }
 }
 .race-more {

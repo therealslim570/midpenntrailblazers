@@ -456,7 +456,7 @@ function renderCalendar() {
             link.target = "_blank";
             link.rel = "noreferrer";
           }
-          link.textContent = event.shortTitle;
+          link.textContent = event.kind === "fun" ? event.title : event.shortTitle;
           link.setAttribute("aria-label", `${event.title}, ${event.detail}`);
           link.title = `${event.title} — ${event.detail}`;
           cell.append(link);
