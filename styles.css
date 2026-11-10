@@ -1907,6 +1907,13 @@ h2 em {
   font-size: 11px;
   line-height: 1.55;
 }
+.race-inline-link {
+  color: var(--forest);
+  text-underline-offset: 3px;
+}
+.race-inline-link:hover {
+  color: #64844f;
+}
 .race-actions {
   margin-top: 19px;
   display: grid;
