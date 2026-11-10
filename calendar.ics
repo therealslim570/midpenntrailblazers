@@ -90,8 +90,8 @@ UID:0c437164b95776fcadd9@midpenntrailblazers
 DTSTAMP:20261101T230721Z
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
-SUMMARY:Fun run · The Sick family farm
-DESCRIPTION:6:00 pm · The Sick family farm
+SUMMARY:Fun run · Sick Family Farm\, Millville\, PA
+DESCRIPTION:6:00 pm · Sick Family Farm\, Millville\, PA
 URL:https://www.facebook.com/groups/MidPennTrailblazers/
 END:VEVENT
 BEGIN:VEVENT
@@ -239,7 +239,7 @@ UID:8b12886ff86f3c1ffb02@midpenntrailblazers
 DTSTAMP:20261101T230721Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
-SUMMARY:Fun run · Sick Family Farm
+SUMMARY:Fun run · Sick Family Farm\, Millville\, PA
 DESCRIPTION:6:00 pm · Sick Family Farm\, Millville\, PA
 URL:https://www.facebook.com/groups/MidPennTrailblazers/
 END:VEVENT
@@ -248,7 +248,7 @@ UID:5defaed8dd0589eb6ab2@midpenntrailblazers
 DTSTAMP:20261101T230721Z
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
-SUMMARY:Fun run · Sick Family Farm
+SUMMARY:Fun run · Sick Family Farm\, Millville\, PA
 DESCRIPTION:6:00 pm · Sick Family Farm\, Millville\, PA
 URL:https://www.facebook.com/groups/MidPennTrailblazers/
 END:VEVENT
@@ -275,7 +275,7 @@ UID:4edb88a8e00fb8bacbfe@midpenntrailblazers
 DTSTAMP:20261101T230721Z
 DTSTART;VALUE=DATE:20270414
 DTEND;VALUE=DATE:20270415
-SUMMARY:Fun run · Sick Family Farm
+SUMMARY:Fun run · Sick Family Farm\, Millville\, PA
 DESCRIPTION:6:00 pm · Sick Family Farm\, Millville\, PA
 URL:https://www.facebook.com/groups/MidPennTrailblazers/
 END:VEVENT
@@ -284,7 +284,7 @@ UID:648fee1b06d669d38844@midpenntrailblazers
 DTSTAMP:20261101T230721Z
 DTSTART;VALUE=DATE:20270428
 DTEND;VALUE=DATE:20270429
-SUMMARY:Fun run · Sick Family Farm
+SUMMARY:Fun run · Sick Family Farm\, Millville\, PA
 DESCRIPTION:6:00 pm · Sick Family Farm\, Millville\, PA
 URL:https://www.facebook.com/groups/MidPennTrailblazers/
 END:VEVENT
@@ -329,7 +329,7 @@ UID:d57164532330670f2219@midpenntrailblazers
 DTSTAMP:20261101T230721Z
 DTSTART;VALUE=DATE:20270714
 DTEND;VALUE=DATE:20270715
-SUMMARY:Fun run · Sick Family Farm
+SUMMARY:Fun run · Sick Family Farm\, Millville\, PA
 DESCRIPTION:6:00 pm · Sick Family Farm\, Millville\, PA
 URL:https://www.facebook.com/groups/MidPennTrailblazers/
 END:VEVENT
@@ -338,7 +338,7 @@ UID:eec1e0adc769b499b5b0@midpenntrailblazers
 DTSTAMP:20261101T230721Z
 DTSTART;VALUE=DATE:20270728
 DTEND;VALUE=DATE:20270729
-SUMMARY:Fun run · Sick Family Farm
+SUMMARY:Fun run · Sick Family Farm\, Millville\, PA
 DESCRIPTION:6:00 pm · Sick Family Farm\, Millville\, PA
 URL:https://www.facebook.com/groups/MidPennTrailblazers/
 END:VEVENT

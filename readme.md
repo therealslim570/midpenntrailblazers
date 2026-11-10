@@ -9,7 +9,7 @@ Open `index.html` in a browser, or use the VS Code Live Server extension for a l
 ## Project files
 
 - `index.html` — page structure and club content
-- `calendar.html` — dedicated 2026 month-view events calendar
+- `calendar.html` — dedicated 2026–2027 month-view events calendar
 - `calendar.ics` — calendar feed for Apple Calendar and Google Calendar subscriptions
 - `results.html` — race results grouped by year, with expandable historic results
 - `results-data.js` — locally archived finisher results from the linked timing providers
@@ -18,7 +18,7 @@ Open `index.html` in a browser, or use the VS Code Live Server extension for a l
 - `styles.css` — responsive layout, colors, and typography
 - `script.js` — accessible mobile navigation and current copyright year
 - `calendar.js` — month navigation and calendar event rendering
-- `assets/` — locally stored homepage background photos
+- `assets/` — locally stored photos, course maps, navigation files, and profile images
 
 The race dates, fun-run schedule, and results were adapted from the legacy club website. Schedules may change; the site directs visitors to the club’s Facebook page to confirm current details. Homepage photography is stored in the repository; fonts continue to load from Google Fonts.
 

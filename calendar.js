@@ -82,10 +82,10 @@ const calendarEvents = [
   },
   {
     date: "2026-07-22",
-    title: "Fun run · The Sick family farm",
+    title: "Fun run · Sick Family Farm, Millville, PA",
     shortTitle: "Fun run",
     kind: "fun",
-    detail: "6:00 pm · The Sick family farm",
+    detail: "6:00 pm · Sick Family Farm, Millville, PA",
     url: "https://www.facebook.com/groups/MidPennTrailblazers/",
   },
   {
@@ -220,7 +220,7 @@ const calendarEvents = [
   },
   {
     date: "2027-02-10",
-    title: "Fun run · Sick Family Farm",
+    title: "Fun run · Sick Family Farm, Millville, PA",
     shortTitle: "Fun run",
     kind: "fun",
     detail: "6:00 pm · Sick Family Farm, Millville, PA",
@@ -228,7 +228,7 @@ const calendarEvents = [
   },
   {
     date: "2027-02-24",
-    title: "Fun run · Sick Family Farm",
+    title: "Fun run · Sick Family Farm, Millville, PA",
     shortTitle: "Fun run",
     kind: "fun",
     detail: "6:00 pm · Sick Family Farm, Millville, PA",
@@ -252,7 +252,7 @@ const calendarEvents = [
   },
   {
     date: "2027-04-14",
-    title: "Fun run · Sick Family Farm",
+    title: "Fun run · Sick Family Farm, Millville, PA",
     shortTitle: "Fun run",
     kind: "fun",
     detail: "6:00 pm · Sick Family Farm, Millville, PA",
@@ -260,7 +260,7 @@ const calendarEvents = [
   },
   {
     date: "2027-04-28",
-    title: "Fun run · Sick Family Farm",
+    title: "Fun run · Sick Family Farm, Millville, PA",
     shortTitle: "Fun run",
     kind: "fun",
     detail: "6:00 pm · Sick Family Farm, Millville, PA",
@@ -300,7 +300,7 @@ const calendarEvents = [
   },
   {
     date: "2027-07-14",
-    title: "Fun run · Sick Family Farm",
+    title: "Fun run · Sick Family Farm, Millville, PA",
     shortTitle: "Fun run",
     kind: "fun",
     detail: "6:00 pm · Sick Family Farm, Millville, PA",
@@ -308,7 +308,7 @@ const calendarEvents = [
   },
   {
     date: "2027-07-28",
-    title: "Fun run · Sick Family Farm",
+    title: "Fun run · Sick Family Farm, Millville, PA",
     shortTitle: "Fun run",
     kind: "fun",
     detail: "6:00 pm · Sick Family Farm, Millville, PA",
@@ -422,7 +422,9 @@ function renderCalendar() {
     heading.className = "calendar-weekday";
     heading.setAttribute("role", "columnheader");
     heading.setAttribute("aria-label", weekday);
-    heading.innerHTML = `<span class="weekday-long">${weekday}</span><span class="weekday-short">${weekday.slice(0, 3)}</span>`;
+    heading.innerHTML =
+      `<span class="weekday-long">${weekday}</span>` +
+      `<span class="weekday-short">${weekday.slice(0, 3)}</span>`;
     calendarGrid.append(heading);
   });
 
@@ -440,7 +442,11 @@ function renderCalendar() {
       cell.classList.add("calendar-day--outside");
       cell.setAttribute("aria-hidden", "true");
     } else {
-      const dateKey = `${year}-${String(month + 1).padStart(2, "0")}-${String(dateNumber).padStart(2, "0")}`;
+      const dateKey = [
+        year,
+        String(month + 1).padStart(2, "0"),
+        String(dateNumber).padStart(2, "0"),
+      ].join("-");
       const dayNumber = document.createElement("span");
       dayNumber.className = "calendar-day-number";
       dayNumber.textContent = String(dateNumber);
